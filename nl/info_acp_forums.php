@@ -4,6 +4,7 @@
  *
  * @copyright (c) Bryan Petty
  * @license GNU General Public License, version 2 (GPL-2.0)
+ * [Dutch] translated by Dutch Translators (https://github.com/dutch-translators)
  *
  * @package tierra/topicsolved/language
  */
@@ -19,16 +20,16 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'ALLOW_SOLVE'               => 'Allow topics to be marked as solved',
-	'ALLOW_SOLVE_EXPLAIN'       => 'Give topic starters or moderators the ability to set a topic as solved. Moderators can solve topics in both yes-options.',
-	'ALLOW_UNSOLVE'             => 'Allow topics to be reopened',
-	'ALLOW_UNSOLVE_EXPLAIN'     => 'Give users or moderators the ability to set a topic back as not solved. Moderators can unsolve topics in both yes-options.',
-	'LOCK_SOLVED'               => 'Lock solved topics',
-	'LOCK_SOLVED_EXPLAIN'       => 'Note that only moderators can reopen locked topics.',
-	'TOPIC_SOLVED_SETTINGS'     => 'Topic solved settings',
-	'FORUM_SOLVE_TEXT'          => 'Choose text instead of solved-image',
-	'FORUM_SOLVE_TEXT_EXPLAIN'  => 'You can have some text instead of the nice topic solved image. Ex [SOLVED] or [SOLD] or something else. Leave empty to use the topic solved image.',
-	'FORUM_SOLVE_COLOR'         => 'Color for the text',
-	'FORUM_SOLVE_COLOR_EXPLAIN' => 'Choose a color for the text. Leave empty to use default color.',
-	'YES_MOD'                   => 'Yes, moderator',
+	'ALLOW_SOLVE'               => 'Markeer onderwerp als opgelost',
+	'ALLOW_SOLVE_EXPLAIN'       => 'Geef onderwerp starters of moderators de mogelijkheid om een onderwerp als opgelost te markeren. Moderators kunnen bij beide ja-opties het onderwerp als opgelost markeren.',
+	'ALLOW_UNSOLVE'             => 'Onderwerpen heropenen als onopgelost',
+	'ALLOW_UNSOLVE_EXPLAIN'     => 'Geef gebruikers en moderators de mogelijkheid om een onderwerp terug als onopgelost te markeren. Moderators kunnen bij beide ja-opties het onderwerp als onopgelost markeren.',
+	'LOCK_SOLVED'               => 'Opgeloste onderwerpen sluiten',
+	'LOCK_SOLVED_EXPLAIN'       => 'LET OP: Alleen moderators kunnen gesloten onderwerpen heropenen.',
+	'TOPIC_SOLVED_SETTINGS'     => 'Onderwerp opgelost instellingen',
+	'FORUM_SOLVE_TEXT'          => 'Kies een tekst inplaats van de solved-afbeelding',
+	'FORUM_SOLVE_TEXT_EXPLAIN'  => 'Je kan hier een tekst opgeven inplaats van de solved afbeelding. Bijv: [OPGELOST] of [VERKOCHT] of iets anders. Laat dit veld leeg om de solved afbeelding te gebruiken.',
+	'FORUM_SOLVE_COLOR'         => 'Kleur van de tekst',
+	'FORUM_SOLVE_COLOR_EXPLAIN' => 'Kies hier een kleur voor je tekst, als je dit veld leeg laat wordt de standaard kleur gebruikt.',
+	'YES_MOD'                   => 'Ja, alleen door moderators',
 ));
