@@ -4,6 +4,7 @@
  *
  * @copyright (c) Bryan Petty
  * @license GNU General Public License, version 2 (GPL-2.0)
+ * [Dutch] translated by Dutch Translators (https://github.com/dutch-translators)
  *
  * @package tierra/topicsolved/language
  */
@@ -19,14 +20,14 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'SEARCH_UNSOLVED' => 'View unsolved topics',
-	'SEARCH_YOUR_UNSOLVED' => 'View your unsolved topics',
-	'SEARCH_SOLVED' => 'Search only in solved topics',
-	'TOPIC_SOLVED' => 'Topic is solved',
-	'SET_TOPIC_SOLVED' => 'Accept this answer',
-	'SET_TOPIC_NOT_SOLVED' => 'Set topic as unsolved',
+	'SEARCH_UNSOLVED' => 'Onopgeloste onderwerpen weergeven',
+	'SEARCH_YOUR_UNSOLVED' => 'Eigen onopgeloste onderwerpen weergeven',
+	'SEARCH_SOLVED' => 'Zoek alleen in opgeloste onderwerpen',
+	'TOPIC_SOLVED' => 'Onderwerp is opgelost',
+	'SET_TOPIC_SOLVED' => 'Accepteer dit antwoord',
+	'SET_TOPIC_NOT_SOLVED' => 'Onderwerp instelllen als onopgelost',
 	'BAD_METHOD_CALL' => 'Invalid argument passed to method "%s".',
-	'FORBIDDEN_MARK_SOLVED' => 'You are not allowed to mark this topic as solved or unsolved.',
-	'TOPIC_ALREADY_SOLVED' => 'Topic is already marked as solved.',
-	'TOPIC_ALREADY_UNSOLVED' => 'Topic is already marked as unsolved.',
+	'FORBIDDEN_MARK_SOLVED' => 'Je bent niet bevoegd om het onderwerp te markeren als opgelost of onopgelost.',
+	'TOPIC_ALREADY_SOLVED' => 'Het onderwerp is al gemarkeerd als opgelost.',
+	'TOPIC_ALREADY_UNSOLVED' => 'Het onderwerp is al gemarkeerd als onopgelost.',
 ));
